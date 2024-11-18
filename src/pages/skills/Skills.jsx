@@ -45,7 +45,7 @@ const getStarRating = (rating) => {
 
 const Skills = () => {
   return (
-    <div className="skills-container pt-20 pb-20 bg-[#3244e7] h-screen">
+    <div className="skills-container pt-20 pb-20 bg-[#3244e7] h-auto">
       <h2 className="text-center text-4xl font-semibold mb-8 animate__animated animate__fadeIn">
         Skills
       </h2>
