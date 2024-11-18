@@ -1,0 +1,18 @@
+.homeContainer{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: linear-gradient( rgba(187, 216, 81, 0.863) 50%, rgba(164, 216, 81, 0.863) 50%);
+
+}
+ 
+ @media(max-width:974px){
+    .homeContainer{
+        background: rgb(0,237,100);
+    }
+ }   
+
+hr{
+   border-color: black;
+}

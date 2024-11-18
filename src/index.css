@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#btn{
+    @apply px-3 py-1 bg-[rgb(0,237,100)] text-black rounded-xl  opacity-95 hover:bg-[rgba(0,0,255,0.37)] hover:text-white flex items-center gap-2
+}
