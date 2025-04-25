@@ -3,22 +3,23 @@ import "animate.css";
 
 const projects = [
   {
+    title: "Study Abroad Guidance Website using MERN Stack ",
+    description:
+      "Designed and implemented a responsive web application using the MERN stack to provide information on universities, courses, and application processes. ",
+    technologies: ["React.js", "Redux", "JavaScript", "TailWind CSS"],
+  },
+  {
+    title:
+      "Multivendor E-commerce Application using Node.js, ReactJS and MongoDB ",
+    description:
+      "Developed a multivendor e-commerce application using the MERN stack, enabling vendor registration,product management, and order tracking.",
+    technologies: ["MongoDB", "Express", "React", "Node.js"],
+  },
+  {
     title: "Deep Learning based Bird Species Classification",
     description:
       "A deep learning project that classifies bird species using a neural network model. The project leverages image processing and classification techniques to identify bird species with high accuracy.",
     technologies: ["Deep Learning", "Python", "TensorFlow"],
-  },
-  {
-    title: "Personal Portfolio",
-    description:
-      "A personal portfolio website showcasing projects, skills, and experience. Built with React.js for dynamic component rendering and Redux for state management.",
-    technologies: ["React.js", "Redux", "JavaScript", "TailWind CSS"],
-  },
-  {
-    title: "E-commerce Website",
-    description:
-      "An eCommerce platform built with the MERN stack, featuring a product catalog, shopping cart, and secure user authentication for a seamless online shopping experience.",
-    technologies: ["MongoDB", "Express", "React", "Node.js"],
   },
 ];
 
@@ -26,9 +27,9 @@ const Project = () => {
   return (
     <section
       id="projects"
-      className="py-16 bg-gradient-to-r from-indigo-600 to-purple-600 h-[170vh]"
+      className="py-16 bg-[#deb887]"
     >
-      <h2 className="text-4xl font-bold text-center text-white mb-8 animate__animated animate__bounceInDown">
+      <h2 className="text-4xl font-bold text-center text-indigo-700 mb-8 animate__animated animate__bounceInDown">
         Projects
       </h2>
       <div className="container mx-auto px-6 md:px-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
