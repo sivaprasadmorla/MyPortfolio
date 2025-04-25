@@ -1,7 +1,7 @@
 import React from "react";
 import "animate.css";
 import "./Hero.css";
-import photo from "../../assets/photo.jpg";
+import photo from "../../assets/portfolio.jpg";
 const Hero = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center px-8 md:px-20 hero">
